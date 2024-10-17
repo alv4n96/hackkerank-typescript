@@ -1,11 +1,12 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.run = run;
-const _5_plusMinus_1 = require("./5_plusMinus");
+const _6_staircase_1 = require("./6_staircase");
 function run() {
     // runSimpleArraySum();
     // runcompareTriplets();
     // runaVeryBigSum();
     // rundiagonalDifference();
-    (0, _5_plusMinus_1.runplusMinus)();
+    // runplusMinus();
+    (0, _6_staircase_1.runStaircase)();
 }
