@@ -13,9 +13,9 @@ function diagonalDifference(arr) {
     let result = 0;
     let lengthArray = arr.length - 1;
     for (let i = 0; i < arr.length; i++) {
-        console.log(`Test ke-${i + 1}`);
-        console.log(arr[i][i]);
-        console.log(arr[lengthArray][i]);
+        // console.log(`Test ke-${i + 1}`);
+        // console.log(arr[i][i]);
+        // console.log(arr[lengthArray][i]);
         result += arr[i][i] - arr[lengthArray][i];
         lengthArray--;
     }
