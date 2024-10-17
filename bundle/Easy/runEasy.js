@@ -1,10 +1,11 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.run = run;
-const _4_diagonalDifference_1 = require("./4_diagonalDifference");
+const _5_plusMinus_1 = require("./5_plusMinus");
 function run() {
     // runSimpleArraySum();
     // runcompareTriplets();
     // runaVeryBigSum();
-    (0, _4_diagonalDifference_1.rundiagonalDifference)();
+    // rundiagonalDifference();
+    (0, _5_plusMinus_1.runplusMinus)();
 }
