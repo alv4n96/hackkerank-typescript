@@ -4,6 +4,7 @@ import { runaVeryBigSum } from "./3_aVeryBigSum";
 import { rundiagonalDifference } from "./4_diagonalDifference";
 import { runplusMinus } from "./5_plusMinus";
 import { runStaircase } from "./6_staircase";
+import { runMiniMaxSum } from "./7_miniMaxSum";
 
 export function run() {
   // runSimpleArraySum();
@@ -11,5 +12,6 @@ export function run() {
   // runaVeryBigSum();
   // rundiagonalDifference();
   // runplusMinus();
-  runStaircase();
+  // runStaircase();
+  runMiniMaxSum();
 }

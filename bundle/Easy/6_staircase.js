@@ -20,5 +20,4 @@ function staircase(n) {
         }
         console.log(theStars);
     }
-    // Write your code here
 }
